@@ -1,53 +1,36 @@
-﻿/* This file is part of Wii.cs Tools
- * Copyright (C) 2009 Leathl
- * 
- * Wii.cs Tools is free software: you can redistribute it and/or
- * modify it under the terms of the GNU General Public License as published
- * by the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * Wii.cs Tools is distributed in the hope that it will be
- * useful, but WITHOUT ANY WARRANTY; without even the implied warranty
- * of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
- 
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-// Allgemeine Informationen über eine Assembly werden über die folgenden 
-// Attribute gesteuert. Ändern Sie diese Attributwerte, um die Informationen zu ändern,
-// die mit einer Assembly verknüpft sind.
-[assembly: AssemblyTitle("WadMii")]
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+[assembly: AssemblyTitle("WadMiiIsh")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Wii.cs Tools")]
-[assembly: AssemblyCopyright("Copyright © Leathl 2009")]
+[assembly: AssemblyProduct("WadMiiIsh")]
+[assembly: AssemblyCopyright("Copyright ©  2010")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// Durch Festlegen von ComVisible auf "false" werden die Typen in dieser Assembly unsichtbar 
-// für COM-Komponenten. Wenn Sie auf einen Typ in dieser Assembly von 
-// COM zugreifen müssen, legen Sie das ComVisible-Attribut für diesen Typ auf "true" fest.
-[assembly: ComVisible(false)]
+// Setting ComVisible to false makes the types in this assembly not visible 
+// to COM components.  If you need to access a type in this assembly from 
+// COM, set the ComVisible attribute to true on that type.
+[assembly: ComVisible(true)]
 
-// Die folgende GUID bestimmt die ID der Typbibliothek, wenn dieses Projekt für COM verfügbar gemacht wird
-[assembly: Guid("91243780-c210-4204-9cd8-5dc72f5da6f9")]
+// The following GUID is for the ID of the typelib if this project is exposed to COM
+[assembly: Guid("48bbbdaa-322d-413c-8067-8ba2ed01bdb3")]
 
-// Versionsinformationen für eine Assembly bestehen aus den folgenden vier Werten:
+// Version information for an assembly consists of the following four values:
 //
-//      Hauptversion
-//      Nebenversion 
-//      Buildnummer
+//      Major Version
+//      Minor Version 
+//      Build Number
 //      Revision
 //
-// Sie können alle Werte angeben oder die standardmäßigen Build- und Revisionsnummern 
-// übernehmen, indem Sie "*" eingeben:
+// You can specify all the values or you can default the Build and Revision Numbers 
+// by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.3.0.0")]
-[assembly: AssemblyFileVersion("0.3.0.0")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
